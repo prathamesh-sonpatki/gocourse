@@ -17,4 +17,12 @@ func main() {
 	fmt.Println("r is:", r)
 
 	fmt.Println("x is:", x)
+
+	fmt.Printf("%T %s", "Hello", "Hello\n")
+
+	fmt.Printf("%T %v\n\n", 'x', 'x')
+
+	type MyWeirdCompex complex128
+	const I MyWeirdCompex = 0 + 0i
+	fmt.Println(I)
 }
